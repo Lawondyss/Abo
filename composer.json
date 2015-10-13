@@ -1,0 +1,23 @@
+{
+  "name": "lawondyss/abo",
+  "type": "library",
+  "description": "Tool for generate file in format ABO.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ladislav Vondráček",
+      "email": "lad.von@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "nette/utils": "~2.3"
+  },
+  "require-dev": {
+    "nette/tester": "~1.5"
+  },
+  "autoload": {
+    "classmap": ["src"],
+    "files": []
+  }
+}
